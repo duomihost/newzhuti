@@ -1,7 +1,7 @@
 window._config = {
     title: '熊猫云村',         // 标题，用于显示用户中心和登录页
     baseurl: 'https://4.216.209.253',            // 后端URL。前后端分离，该项必填 (域名后别带/
-    color: 'blue',              // 主题配色 (16进制颜色代码
+    color: '',              // 主题配色 (16进制颜色代码
     crisp: '54e550e4-66fc-4031-b121-581b7e38a322',              // Crisp ID
     Chatra: '',             // Chatra ID
     download: {             // 客户端下载地址
