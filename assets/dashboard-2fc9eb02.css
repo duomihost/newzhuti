@@ -1,0 +1,105 @@
+.custom-arrow-container[data-v-a2424ea4] {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 999
+}
+
+.custom-arrow[data-v-a2424ea4] {
+    border: 1px solid #6c757d;
+    width: 20px;
+    height: 60px;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.custom-arrow-icon[data-v-a2424ea4] {
+    border: solid #6c757d;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg)
+}
+
+.custom-tooltip[data-v-a2424ea4] {
+    visibility: hidden;
+    width: 180px;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    bottom: 50%;
+    right: 30px;
+    transform: translateY(50%);
+    opacity: 0;
+    transition: opacity 1s,transform 1s;
+    box-shadow: 0 8px 16px #0003;
+    font-family: Arial,sans-serif
+}
+
+.custom-tooltip-close[data-v-a2424ea4] {
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    background-color: transparent;
+    border: none;
+    line-height: 20px
+}
+
+.custom-tooltip[data-v-a2424ea4]:after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #343a40;
+    transform: translateY(-50%)
+}
+
+.hover_bot[data-v-a2424ea4]:hover {
+    color: var(--theme-color)
+}
+
+.hover_bot:hover .ant-icon[data-v-a2424ea4] {
+    color: var(--theme-color)!important
+}
+
+.bi-time[data-v-a2424ea4] {
+    transition: all .3s ease
+}
+
+.bi:hover .bi-time[data-v-a2424ea4] {
+    background: #122144
+}
+
+.bi:hover .iconfont[data-v-a2424ea4] {
+    color: #fff
+}
+
+.card-body[data-v-a2424ea4] {
+    background: #fff;
+    padding: 0 24px;
+    transition: .3s;
+    height: 90px;
+    border-radius: 10px;
+    border: 1px solid #eff0f7
+}
+
+.card-body .card-subtitle[data-v-a2424ea4] {
+    display: block;
+    text-transform: uppercase;
+    color: #8c98a4;
+    font-size: 12px;
+    margin-bottom: .25rem
+}
